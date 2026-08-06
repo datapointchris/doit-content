@@ -1,0 +1,6 @@
+# Carried over from dotfiles' ignore-words-list when the cards moved out. Only
+# the words these files actually need, not the whole inherited list.
+#
+#   te — `<leader>te` is a Neovim tab binding, not a misspelling of "the".
+[codespell]
+ignore-words-list = te
