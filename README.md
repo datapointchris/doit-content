@@ -4,6 +4,12 @@ A curated body of terminal knowledge, authored by hand.
 
 - `workflows/` — reference cards: one tool's commands, or one procedure across several
 - `labs/` — hands-on practice Labs, each with a cadence in its frontmatter
+- `tools/` — the tool registry: what each tool is, why to reach for it, what to type
+
+`tools/registry.yml` is reference, not declaration. What puts a tool on a machine is
+dotfiles' `packages.yml`; this says what the thing is once it is there. The two describe
+largely different populations — most of what is documented here is a shell function or a
+script no package manager installs — so neither is derivable from the other.
 
 "Terminal" rather than "CLI" because most of what is here is not a binary: tmux bindings,
 shell functions, aliases, forgit shortcuts. "Library" because it is curated and written,
